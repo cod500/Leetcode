@@ -8,7 +8,7 @@ function arrayMax(array) {
     }
 
 
-    return "hello" + max;
+    return max;
 }
 
 console.log(arrayMax([2, 3, 5, 1, 9]))
