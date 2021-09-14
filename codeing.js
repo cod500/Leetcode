@@ -71,24 +71,24 @@
 
 
 
-function twoSum(numArray, sum) {
-    let sumArray = [];
-    let sumObj = {}
-    for (let i = 0; i < numArray.length; i++) {
-        if (!sumObj[numArray[i]]) {
-            sumObj[numArray[i]] = numArray[i];
-        }
+// function twoSum(numArray, sum) {
+//     let sumArray = [];
+//     let sumObj = {}
+//     for (let i = 0; i < numArray.length; i++) {
+//         if (!sumObj[numArray[i]]) {
+//             sumObj[numArray[i]] = numArray[i];
+//         }
 
-        let difference = sum - sumObj[numArray[i]]
+//         let difference = sum - sumObj[numArray[i]]
 
-        if (sumObj[difference]) {
-            sumArray.push([difference, sumObj[numArray[i]]])
-        }
-    }
+//         if (sumObj[difference]) {
+//             sumArray.push([difference, sumObj[numArray[i]]])
+//         }
+//     }
 
-    return sumArray;
+//     return sumArray;
 
-}
+// }
 
-console.log(twoSum([1, 2, 5, 6], 11))
+// console.log(twoSum([1, 2, 5, 6], 11))
 
